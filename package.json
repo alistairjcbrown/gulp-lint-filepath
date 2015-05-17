@@ -1,0 +1,58 @@
+{
+  "name": "gulp-lint-filepath",
+  "description": "Lint filenames and paths",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Alistair Brown <github@alistairjcbrown.com>",
+  "bugs": "https://github.com/alistairjcbrown/gulp-lint-filepath/issues",
+  "contributors": [],
+  "dependencies": {
+    "check-type": "~0.4.11",
+    "gulp-util": "~3.0.0",
+    "lodash": "~3.8.0",
+    "require-dir": "~0.3.0",
+    "through2": "~0.6.1"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.11",
+    "gulp-jasmine": "~2.0.1",
+    "gulp-jshint": "~1.10.0",
+    "gulp-load-plugins": "~0.10.0",
+    "jasmine": "~2.3.1",
+    "jasmine-expect": "~2.0.0-beta1",
+    "jasmine-sinon": "~0.4.0",
+    "jshint-stylish": "~1.0.2",
+    "proxyquire": "~1.4.0",
+    "sinon": "~1.14.1",
+    "yargs": "~3.9.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "go": "gulp",
+    "lint": "gulp lint",
+    "test": "gulp test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/alistairjcbrown/gulp-lint-filepath",
+  "keywords": [
+    "gulpplugin",
+    "vinyl",
+    "file",
+    "fs",
+    "linter",
+    "linting",
+    "lint",
+    "filepath",
+    "directory",
+    "filename"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alistairjcbrown/gulp-lint-filepath.git"
+  }
+}
