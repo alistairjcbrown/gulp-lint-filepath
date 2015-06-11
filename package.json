@@ -1,7 +1,7 @@
 {
   "name": "gulp-lint-filepath",
   "description": "Lint filenames and paths",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Alistair Brown <github@alistairjcbrown.com>",
   "bugs": "https://github.com/alistairjcbrown/gulp-lint-filepath/issues",
@@ -37,7 +37,10 @@
     "check": "npm-check --skip-unused"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "reporters",
+    "rules",
+    "utils"
   ],
   "homepage": "https://github.com/alistairjcbrown/gulp-lint-filepath",
   "keywords": [
