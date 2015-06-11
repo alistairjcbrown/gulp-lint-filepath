@@ -33,7 +33,7 @@ var lintFilepath = require('gulp-lint-filepath');
 var lintFilePathConfig = {};
 
 gulp.task('lint', function () {
-  return gulp.src(['./**/*.*', '!./node_modules/**/*'])
+  return gulp.src(['./**/*', '!./node_modules/**/*'])
              .pipe(lintFilePath(lintFilePathConfig))
              .pipe(lintFilePath.reporter());
 });
@@ -111,7 +111,7 @@ var lintFilePathCustomRules = {
 };
 
 gulp.task('lint', function () {
-  return gulp.src(['./**/*.*', '!./node_modules/**/*'])
+  return gulp.src(['./**/*', '!./node_modules/**/*'])
              .pipe(lintFilePath(lintFilePathConfig, lintFilePathCustomRules))
              .pipe(lintFilePath.reporter());
 });
@@ -129,7 +129,7 @@ At present only the `default` and `fail` reporters are built in, with the defaul
 
 ```js
 gulp.task('lint', function () {
-  return gulp.src(['./**/*.*', '!./node_modules/**/*'])
+  return gulp.src(['./**/*', '!./node_modules/**/*'])
              .pipe(lintFilePath(lintFilePathConfig))
              .pipe(lintFilePath.reporter())
              .pipe(lintFilePath.reporter('fail'));
@@ -157,7 +157,7 @@ var lintFilePathCustomReporter = {
 };
 
 gulp.task('lint', function () {
-  return gulp.src(['./**/*.*', '!./node_modules/**/*'])
+  return gulp.src(['./**/*', '!./node_modules/**/*'])
              .pipe(lintFilePath(lintFilePathConfig, lintFilePathCustomRules))
              .pipe(lintFilePath.reporter(lintFilePathCustomReporter));
 });
