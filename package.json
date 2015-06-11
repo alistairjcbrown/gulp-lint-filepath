@@ -9,22 +9,23 @@
   "dependencies": {
     "check-type": "~0.4.11",
     "gulp-util": "~3.0.0",
-    "lodash": "~3.8.0",
+    "lodash": "~3.9.3",
     "require-dir": "~0.3.0",
-    "through2": "~0.6.1"
+    "through2": "~0.6.5"
   },
   "devDependencies": {
-    "gulp": "~3.8.11",
+    "gulp": "~3.9.0",
     "gulp-jasmine": "~2.0.1",
-    "gulp-jshint": "~1.10.0",
+    "gulp-jshint": "~1.11.0",
     "gulp-load-plugins": "~0.10.0",
     "jasmine": "~2.3.1",
     "jasmine-expect": "~2.0.0-beta1",
     "jasmine-sinon": "~0.4.0",
-    "jshint-stylish": "~1.0.2",
-    "proxyquire": "~1.4.0",
-    "sinon": "~1.14.1",
-    "yargs": "~3.9.0"
+    "jshint-stylish": "~2.0.0",
+    "npm-check": "~3.2.10",
+    "proxyquire": "~1.5.0",
+    "sinon": "~1.15.3",
+    "yargs": "~3.10.0"
   },
   "engines": {
     "node": ">=0.10"
@@ -32,7 +33,8 @@
   "scripts": {
     "go": "gulp",
     "lint": "gulp lint",
-    "test": "gulp test"
+    "test": "gulp test",
+    "check": "npm-check --skip-unused"
   },
   "files": [
     "index.js"

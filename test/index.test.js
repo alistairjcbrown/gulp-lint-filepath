@@ -21,12 +21,13 @@ var lintFilepath = proxyquire('../index', {
 });
 
 var resetStubs = function(mockObject, property) {
-  _.each(mockObject, function(value) {
-    if (_.isString(property) && _.isFunction(value[property])) {
+  _.each(_.keys(mockObject), function(key) {
+    var value = mockObject[key];
+
+    if (!_.isUndefined(value) && _.isString(property) && _.isFunction(value[property])) {
       value = value[property];
     }
-
-    if (_.isFunction(value.reset)) {
+    if (!_.isUndefined(value) && _.isFunction(value.reset)) {
       value.reset();
     }
   });

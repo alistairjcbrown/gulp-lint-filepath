@@ -1,5 +1,11 @@
 # gulp-lint-filepath
 
+[![Build Status](https://travis-ci.org/alistairjcbrown/gulp-lint-filepath.svg?branch=master)](https://travis-ci.org/alistairjcbrown/gulp-lint-filepath)
+[![GitHub version](https://badge.fury.io/gh/alistairjcbrown%2Fgulp-lint-filepath.svg)](http://badge.fury.io/gh/alistairjcbrown%2Fgulp-lint-filepath)
+[![Dependency Status](https://david-dm.org/alistairjcbrown/gulp-lint-filepath.svg?theme=shields.io)](https://david-dm.org/alistairjcbrown/gulp-lint-filepath)
+[![devDependency Status](https://david-dm.org/alistairjcbrown/gulp-lint-filepath/dev-status.svg?theme=shields.io)](https://david-dm.org/alistairjcbrown/gulp-lint-filepath#info=devDependencies)
+
+
 A linter for file paths; allows enforcement of file naming, allowed file extensions, etc.
 
 Fully extensible, allowing custom rules and custom reporting.
