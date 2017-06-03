@@ -1,5 +1,7 @@
 # gulp-lint-filepath
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/alistairjcbrown/gulp-lint-filepath.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/alistairjcbrown/gulp-lint-filepath.svg?branch=master)](https://travis-ci.org/alistairjcbrown/gulp-lint-filepath)
 [![GitHub version](https://badge.fury.io/gh/alistairjcbrown%2Fgulp-lint-filepath.svg)](http://badge.fury.io/gh/alistairjcbrown%2Fgulp-lint-filepath)
 [![Dependency Status](https://david-dm.org/alistairjcbrown/gulp-lint-filepath.svg?theme=shields.io)](https://david-dm.org/alistairjcbrown/gulp-lint-filepath)
